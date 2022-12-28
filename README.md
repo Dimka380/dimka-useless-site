@@ -2,3 +2,4 @@ Hi! This site is made in only HTML, few in JavaScript, (Link and Disqus) So if J
 
 You can learn how to enable Javascript here: 
 https://www.whatismybrowser.com/guides/how-to-enable-javascript/
+https://dimka-useless-site.glitch.me/
