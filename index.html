@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dimka's useless site</title>
+    <style>
+      body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+      }
+
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <link
+    rel="icon"
+    href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/349/grinning-face-with-big-eyes_1f603.png"
+  />
+  <body>
+    <noscript
+      >JavaScript is disabled, so you can't go back from where you went from, (+ opposite) Go
+      enable JavaScript now so you can access other websites! This website is
+      made of HTML though, Please go
+      <a href="https://www.whatismybrowser.com/guides/how-to-enable-javascript/"
+        >here</a
+      >
+      to see how to enable Javascript, Dark mode won't work too.</noscript
+    >
+    <button onclick="myFunction()">Toggle dark mode</button>
+
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+    <h1>Updates:</h1>
+    <ol>
+      <p>2022/12/26</p>
+      <li>Added My Mapbox (click <a href="/mapbox.html">here</a> to visit)</li>
+      <p>More updates coming soon!</p>
+    </ol>
+    <marquee>█▀▄▀█ ▄▀█ █▀█ █▀█ █░█ █▀▀ █▀▀</marquee>
+    <marquee>█░▀░█ █▀█ █▀▄ ▀▀█ █▄█ ██▄ ██▄</marquee>
+    <a href="https://example.com">Click here for an example page!</a>
+    <a href="javascript:history.go(-1)"
+      >And here, to go back to where you went from</a
+    >
+    <a href="javascript:history.go(1)">Or do the opposite.</a>
+    <div id="disqus_thread"></div>
+    <script>
+      /**
+       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+      (function () {
+        // DON'T EDIT BELOW THIS LINE
+        var d = document,
+          s = d.createElement("script");
+        s.src = "https://mazur.disqus.com/embed.js";
+        s.setAttribute("data-timestamp", +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript
+      >Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript"
+        >comments powered by Disqus.</a
+      ></noscript
+    >
+    <!-- Outdated browser notification -->
+    <script>
+      var $buoop = {
+        required: { e: 79, f: 98, o: 84, s: 6, c: 99 },
+        insecure: true,
+        unsupported: true,
+        style: "bottom",
+        api: 2022.12,
+      };
+      function $buo_f() {
+        var e = document.createElement("script");
+        e.src = "//browser-update.org/update.min.js";
+        document.body.appendChild(e);
+      }
+      try {
+        document.addEventListener("DOMContentLoaded", $buo_f, false);
+      } catch (e) {
+        window.attachEvent("onload", $buo_f);
+      }
+    </script>
+    <!-- Start of ChatBot (www.chatbot.com) code -->
+    <script type="text/javascript">
+      window.__be = window.__be || {};
+      window.__be.id = "63a382d32098ad00067856e8";
+      (function () {
+        var be = document.createElement("script");
+        be.type = "text/javascript";
+        be.async = true;
+        be.src =
+          ("https:" == document.location.protocol ? "https://" : "http://") +
+          "cdn.chatbot.com/widget/plugin.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(be, s);
+      })();
+    </script>
+    <!-- End of ChatBot code -->
+  </body>
+</html>
