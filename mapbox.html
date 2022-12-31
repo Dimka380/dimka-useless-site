@@ -1,5 +1,9 @@
 <html>
   <head>
+      
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
     <title>Dimka's Mapbox</title>
   </head>
   <link 
@@ -13,5 +17,18 @@
       Click <a href="/">here</a> to go back
     </p>
     <p>You won't go and steal my Mapbox, right?</p>
+    <p>
+  Other Mapbox, not by me
+    </p>
+    <!-- Start of Mapbox code -->
+        <div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+  mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN_HERE';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11'
+  });
+</script>
+    <!-- End of Mapbox code -->
       </body>
 </html>
